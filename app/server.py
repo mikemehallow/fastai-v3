@@ -8,11 +8,11 @@ from starlette.applications import Starlette
 from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
-
-export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
+ 
+export_file_url = 'https://drive.google.com/uc?export=download&id=1AJoBUtb4_98xuyjQgmUMOyyY9tkgHuvY'
 export_file_name = 'export.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['a320_ceo', 'a380', 'b747', 'a220', 'b737','e190']
 path = Path(__file__).parent
 
 app = Starlette()
