@@ -9,10 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
  
-export_file_url = 'https://drive.google.com/uc?export=download&id=1AJoBUtb4_98xuyjQgmUMOyyY9tkgHuvY'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1bLtYhLJfGJ7GLg638pl8wu61SKTMoSdk'
 export_file_name = 'export.pkl'
 
-classes = ['a320_ceo', 'a380', 'b747', 'a220', 'b737','e190']
+classes = ['a320', 'a380', 'b747', 'a220', 'b737','e190']
 path = Path(__file__).parent
 
 app = Starlette()
